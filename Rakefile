@@ -7,6 +7,7 @@ namespace :greeting do
   desc 'outputs hola to the terminal'
   task :hola do
     puts "hola de Rake!"
+    # "¡Hola desde Rake!" would be more grammatically correct
   end
 end
 
